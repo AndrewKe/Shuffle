@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B9BA52191C47400051971D"
-               BuildableName = "Shuffle.app"
-               BlueprintName = "Shuffle"
-               ReferencedContainer = "container:Shuffle.xcodeproj">
+               BuildableName = "Word Combo.app"
+               BlueprintName = "Word Combo"
+               ReferencedContainer = "container:Word Combo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B9BA73191C47400051971D"
-               BuildableName = "ShuffleTests.xctest"
-               BlueprintName = "ShuffleTests"
-               ReferencedContainer = "container:Shuffle.xcodeproj">
+               BuildableName = "Word ComboTests.xctest"
+               BlueprintName = "Word ComboTests"
+               ReferencedContainer = "container:Word Combo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1B9BA52191C47400051971D"
-            BuildableName = "Shuffle.app"
-            BlueprintName = "Shuffle"
-            ReferencedContainer = "container:Shuffle.xcodeproj">
+            BuildableName = "Word Combo.app"
+            BlueprintName = "Word Combo"
+            ReferencedContainer = "container:Word Combo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1B9BA52191C47400051971D"
-            BuildableName = "Shuffle.app"
-            BlueprintName = "Shuffle"
-            ReferencedContainer = "container:Shuffle.xcodeproj">
+            BuildableName = "Word Combo.app"
+            BlueprintName = "Word Combo"
+            ReferencedContainer = "container:Word Combo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1B9BA52191C47400051971D"
-            BuildableName = "Shuffle.app"
-            BlueprintName = "Shuffle"
-            ReferencedContainer = "container:Shuffle.xcodeproj">
+            BuildableName = "Word Combo.app"
+            BlueprintName = "Word Combo"
+            ReferencedContainer = "container:Word Combo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -91,6 +91,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "Word Combo"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

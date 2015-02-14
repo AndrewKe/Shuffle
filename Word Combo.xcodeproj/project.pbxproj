@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10E72D41944F10E0016DB87 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E72D31944F10E0016DB87 /* HelpViewController.m */; };
+		A1146F3F193BA66200FCEBDF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1146F3E193BA66200FCEBDF /* HomeViewController.m */; };
+		A1146F42193BB0A100FCEBDF /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1146F41193BB0A100FCEBDF /* GameOverViewController.m */; };
+		A12C9AE7192CF97C00CBE461 /* WordMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = A12C9AE6192CF97C00CBE461 /* WordMachine.m */; };
+		A12C9AEB192CF9E400CBE461 /* 6-letter-words.txt in Resources */ = {isa = PBXBuildFile; fileRef = A12C9AE9192CF9E400CBE461 /* 6-letter-words.txt */; };
+		A12C9AEC192CF9E400CBE461 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = A12C9AEA192CF9E400CBE461 /* words.txt */; };
+		A12C9AEF192D70C100CBE461 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = A12C9AEE192D70C100CBE461 /* NSMutableArray+Shuffling.m */; };
+		A12C9AF51930145F00CBE461 /* PointsTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A12C9AF41930145F00CBE461 /* PointsTicker.m */; };
+		A132A4A619428AB700BFE14B /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A132A4A519428AB700BFE14B /* theme.mp3 */; };
 		A1B9BA57191C47400051971D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BA56191C47400051971D /* Foundation.framework */; };
 		A1B9BA59191C47400051971D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BA58191C47400051971D /* CoreGraphics.framework */; };
 		A1B9BA5B191C47400051971D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BA5A191C47400051971D /* UIKit.framework */; };
@@ -21,6 +30,15 @@
 		A1B9BA78191C47400051971D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BA5A191C47400051971D /* UIKit.framework */; };
 		A1B9BA80191C47400051971D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1B9BA7E191C47400051971D /* InfoPlist.strings */; };
 		A1B9BA82191C47400051971D /* ShuffleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9BA81191C47400051971D /* ShuffleTests.m */; };
+		A1B9BA8D191C486F0051971D /* UIBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9BA8C191C486F0051971D /* UIBox.m */; };
+		A1B9BA91191C68190051971D /* LetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9BA90191C68190051971D /* LetterView.m */; };
+		A1B9BA94191C6D610051971D /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9BA93191C6D610051971D /* CountdownView.m */; };
+		A1CEA91E193A76DB00F227B6 /* UIRoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEA91D193A76DB00F227B6 /* UIRoundRectButton.m */; };
+		A1D95F27194BAB69009E6DA1 /* blop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D95F26194BAB69009E6DA1 /* blop.mp3 */; };
+		A1D95F29194BB55E009E6DA1 /* kaching.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D95F28194BB55D009E6DA1 /* kaching.mp3 */; };
+		A1D95F2B194BC337009E6DA1 /* aww.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D95F2A194BC337009E6DA1 /* aww.mp3 */; };
+		A1E508F41943EEE40056F561 /* UIOutlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E508F31943EEE40056F561 /* UIOutlinedButton.m */; };
+		A1F48CF019310956009EA80A /* WordDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F48CEF19310956009EA80A /* WordDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +52,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1B9BA53191C47400051971D /* Shuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10E72D21944F10E0016DB87 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		A10E72D31944F10E0016DB87 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		A1146F3D193BA66200FCEBDF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A1146F3E193BA66200FCEBDF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A1146F40193BB0A100FCEBDF /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverViewController.h; path = ../GameOverViewController.h; sourceTree = "<group>"; };
+		A1146F41193BB0A100FCEBDF /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverViewController.m; path = ../GameOverViewController.m; sourceTree = "<group>"; };
+		A12C9AE5192CF97C00CBE461 /* WordMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordMachine.h; sourceTree = "<group>"; };
+		A12C9AE6192CF97C00CBE461 /* WordMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordMachine.m; sourceTree = "<group>"; };
+		A12C9AE9192CF9E400CBE461 /* 6-letter-words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6-letter-words.txt"; sourceTree = "<group>"; };
+		A12C9AEA192CF9E400CBE461 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		A12C9AED192D70C100CBE461 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		A12C9AEE192D70C100CBE461 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		A12C9AF31930145F00CBE461 /* PointsTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointsTicker.h; path = ../PointsTicker.h; sourceTree = "<group>"; };
+		A12C9AF41930145F00CBE461 /* PointsTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointsTicker.m; path = ../PointsTicker.m; sourceTree = "<group>"; };
+		A132A4A519428AB700BFE14B /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = theme.mp3; path = Shuffle/theme.mp3; sourceTree = "<group>"; };
+		A1B9BA53191C47400051971D /* Word Combo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Combo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B9BA56191C47400051971D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1B9BA58191C47400051971D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A1B9BA5A191C47400051971D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A1B9BA5E191C47400051971D /* Shuffle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shuffle-Info.plist"; sourceTree = "<group>"; };
+		A1B9BA5E191C47400051971D /* Word Combo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Word Combo-Info.plist"; sourceTree = "<group>"; };
 		A1B9BA60191C47400051971D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1B9BA62191C47400051971D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1B9BA64191C47400051971D /* Shuffle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shuffle-Prefix.pch"; sourceTree = "<group>"; };
+		A1B9BA64191C47400051971D /* Word Combo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Word Combo-Prefix.pch"; sourceTree = "<group>"; };
 		A1B9BA65191C47400051971D /* ShuffleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffleAppDelegate.h; sourceTree = "<group>"; };
 		A1B9BA66191C47400051971D /* ShuffleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleAppDelegate.m; sourceTree = "<group>"; };
 		A1B9BA69191C47400051971D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1B9BA6B191C47400051971D /* ShuffleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffleViewController.h; sourceTree = "<group>"; };
 		A1B9BA6C191C47400051971D /* ShuffleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleViewController.m; sourceTree = "<group>"; };
 		A1B9BA6E191C47400051971D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A1B9BA74191C47400051971D /* ShuffleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9BA74191C47400051971D /* Word ComboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word ComboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B9BA75191C47400051971D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A1B9BA7D191C47400051971D /* ShuffleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuffleTests-Info.plist"; sourceTree = "<group>"; };
+		A1B9BA7D191C47400051971D /* Word ComboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Word ComboTests-Info.plist"; sourceTree = "<group>"; };
 		A1B9BA7F191C47400051971D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1B9BA81191C47400051971D /* ShuffleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleTests.m; sourceTree = "<group>"; };
+		A1B9BA8B191C486F0051971D /* UIBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBox.h; sourceTree = "<group>"; };
+		A1B9BA8C191C486F0051971D /* UIBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBox.m; sourceTree = "<group>"; };
+		A1B9BA8F191C68190051971D /* LetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterView.h; sourceTree = "<group>"; };
+		A1B9BA90191C68190051971D /* LetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterView.m; sourceTree = "<group>"; };
+		A1B9BA92191C6D610051971D /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
+		A1B9BA93191C6D610051971D /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
+		A1CEA91C193A76DB00F227B6 /* UIRoundRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRoundRectButton.h; sourceTree = "<group>"; };
+		A1CEA91D193A76DB00F227B6 /* UIRoundRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRoundRectButton.m; sourceTree = "<group>"; };
+		A1D95F26194BAB69009E6DA1 /* blop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blop.mp3; path = Shuffle/blop.mp3; sourceTree = "<group>"; };
+		A1D95F28194BB55D009E6DA1 /* kaching.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kaching.mp3; sourceTree = "<group>"; };
+		A1D95F2A194BC337009E6DA1 /* aww.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aww.mp3; sourceTree = "<group>"; };
+		A1E508F21943EEE40056F561 /* UIOutlinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIOutlinedButton.h; sourceTree = "<group>"; };
+		A1E508F31943EEE40056F561 /* UIOutlinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIOutlinedButton.m; sourceTree = "<group>"; };
+		A1F48CEE19310956009EA80A /* WordDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDisplay.h; sourceTree = "<group>"; };
+		A1F48CEF19310956009EA80A /* WordDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +127,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A12C9AE8192CF98400CBE461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A12C9AE5192CF97C00CBE461 /* WordMachine.h */,
+				A12C9AE6192CF97C00CBE461 /* WordMachine.m */,
+				A12C9AE9192CF9E400CBE461 /* 6-letter-words.txt */,
+				A12C9AEA192CF9E400CBE461 /* words.txt */,
+				A12C9AED192D70C100CBE461 /* NSMutableArray+Shuffling.h */,
+				A12C9AEE192D70C100CBE461 /* NSMutableArray+Shuffling.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A1B9BA4A191C47400051971D = {
 			isa = PBXGroup;
 			children = (
+				A132A4A519428AB700BFE14B /* theme.mp3 */,
+				A1D95F28194BB55D009E6DA1 /* kaching.mp3 */,
+				A1D95F2A194BC337009E6DA1 /* aww.mp3 */,
+				A1D95F26194BAB69009E6DA1 /* blop.mp3 */,
 				A1B9BA5C191C47400051971D /* Shuffle */,
 				A1B9BA7B191C47400051971D /* ShuffleTests */,
 				A1B9BA55191C47400051971D /* Frameworks */,
@@ -92,8 +157,8 @@
 		A1B9BA54191C47400051971D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1B9BA53191C47400051971D /* Shuffle.app */,
-				A1B9BA74191C47400051971D /* ShuffleTests.xctest */,
+				A1B9BA53191C47400051971D /* Word Combo.app */,
+				A1B9BA74191C47400051971D /* Word ComboTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,11 +177,19 @@
 		A1B9BA5C191C47400051971D /* Shuffle */ = {
 			isa = PBXGroup;
 			children = (
+				A12C9AE8192CF98400CBE461 /* Model */,
+				A1B9BA8E191C48780051971D /* View */,
 				A1B9BA65191C47400051971D /* ShuffleAppDelegate.h */,
 				A1B9BA66191C47400051971D /* ShuffleAppDelegate.m */,
 				A1B9BA68191C47400051971D /* Main.storyboard */,
+				A10E72D21944F10E0016DB87 /* HelpViewController.h */,
+				A10E72D31944F10E0016DB87 /* HelpViewController.m */,
+				A1146F3D193BA66200FCEBDF /* HomeViewController.h */,
+				A1146F3E193BA66200FCEBDF /* HomeViewController.m */,
 				A1B9BA6B191C47400051971D /* ShuffleViewController.h */,
 				A1B9BA6C191C47400051971D /* ShuffleViewController.m */,
+				A1146F41193BB0A100FCEBDF /* GameOverViewController.m */,
+				A1146F40193BB0A100FCEBDF /* GameOverViewController.h */,
 				A1B9BA6E191C47400051971D /* Images.xcassets */,
 				A1B9BA5D191C47400051971D /* Supporting Files */,
 			);
@@ -126,10 +199,10 @@
 		A1B9BA5D191C47400051971D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A1B9BA5E191C47400051971D /* Shuffle-Info.plist */,
+				A1B9BA5E191C47400051971D /* Word Combo-Info.plist */,
 				A1B9BA5F191C47400051971D /* InfoPlist.strings */,
 				A1B9BA62191C47400051971D /* main.m */,
-				A1B9BA64191C47400051971D /* Shuffle-Prefix.pch */,
+				A1B9BA64191C47400051971D /* Word Combo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +219,39 @@
 		A1B9BA7C191C47400051971D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A1B9BA7D191C47400051971D /* ShuffleTests-Info.plist */,
+				A1B9BA7D191C47400051971D /* Word ComboTests-Info.plist */,
 				A1B9BA7E191C47400051971D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A1B9BA8E191C48780051971D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1CEA91C193A76DB00F227B6 /* UIRoundRectButton.h */,
+				A1CEA91D193A76DB00F227B6 /* UIRoundRectButton.m */,
+				A1E508F21943EEE40056F561 /* UIOutlinedButton.h */,
+				A1E508F31943EEE40056F561 /* UIOutlinedButton.m */,
+				A1B9BA8B191C486F0051971D /* UIBox.h */,
+				A1B9BA8C191C486F0051971D /* UIBox.m */,
+				A1B9BA8F191C68190051971D /* LetterView.h */,
+				A1B9BA90191C68190051971D /* LetterView.m */,
+				A1B9BA92191C6D610051971D /* CountdownView.h */,
+				A1B9BA93191C6D610051971D /* CountdownView.m */,
+				A12C9AF31930145F00CBE461 /* PointsTicker.h */,
+				A12C9AF41930145F00CBE461 /* PointsTicker.m */,
+				A1F48CEE19310956009EA80A /* WordDisplay.h */,
+				A1F48CEF19310956009EA80A /* WordDisplay.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1B9BA52191C47400051971D /* Shuffle */ = {
+		A1B9BA52191C47400051971D /* Word Combo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B9BA85191C47400051971D /* Build configuration list for PBXNativeTarget "Shuffle" */;
+			buildConfigurationList = A1B9BA85191C47400051971D /* Build configuration list for PBXNativeTarget "Word Combo" */;
 			buildPhases = (
 				A1B9BA4F191C47400051971D /* Sources */,
 				A1B9BA50191C47400051971D /* Frameworks */,
@@ -167,14 +261,14 @@
 			);
 			dependencies = (
 			);
-			name = Shuffle;
+			name = "Word Combo";
 			productName = Shuffle;
-			productReference = A1B9BA53191C47400051971D /* Shuffle.app */;
+			productReference = A1B9BA53191C47400051971D /* Word Combo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1B9BA73191C47400051971D /* ShuffleTests */ = {
+		A1B9BA73191C47400051971D /* Word ComboTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B9BA88191C47400051971D /* Build configuration list for PBXNativeTarget "ShuffleTests" */;
+			buildConfigurationList = A1B9BA88191C47400051971D /* Build configuration list for PBXNativeTarget "Word ComboTests" */;
 			buildPhases = (
 				A1B9BA70191C47400051971D /* Sources */,
 				A1B9BA71191C47400051971D /* Frameworks */,
@@ -185,9 +279,9 @@
 			dependencies = (
 				A1B9BA7A191C47400051971D /* PBXTargetDependency */,
 			);
-			name = ShuffleTests;
+			name = "Word ComboTests";
 			productName = ShuffleTests;
-			productReference = A1B9BA74191C47400051971D /* ShuffleTests.xctest */;
+			productReference = A1B9BA74191C47400051971D /* Word ComboTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1B9BA4E191C47400051971D /* Build configuration list for PBXProject "Shuffle" */;
+			buildConfigurationList = A1B9BA4E191C47400051971D /* Build configuration list for PBXProject "Word Combo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +312,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1B9BA52191C47400051971D /* Shuffle */,
-				A1B9BA73191C47400051971D /* ShuffleTests */,
+				A1B9BA52191C47400051971D /* Word Combo */,
+				A1B9BA73191C47400051971D /* Word ComboTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +323,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D95F2B194BC337009E6DA1 /* aww.mp3 in Resources */,
 				A1B9BA6F191C47400051971D /* Images.xcassets in Resources */,
+				A1D95F27194BAB69009E6DA1 /* blop.mp3 in Resources */,
+				A1D95F29194BB55E009E6DA1 /* kaching.mp3 in Resources */,
 				A1B9BA61191C47400051971D /* InfoPlist.strings in Resources */,
 				A1B9BA6A191C47400051971D /* Main.storyboard in Resources */,
+				A12C9AEC192CF9E400CBE461 /* words.txt in Resources */,
+				A132A4A619428AB700BFE14B /* theme.mp3 in Resources */,
+				A12C9AEB192CF9E400CBE461 /* 6-letter-words.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +350,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F48CF019310956009EA80A /* WordDisplay.m in Sources */,
+				A12C9AEF192D70C100CBE461 /* NSMutableArray+Shuffling.m in Sources */,
+				A12C9AF51930145F00CBE461 /* PointsTicker.m in Sources */,
 				A1B9BA67191C47400051971D /* ShuffleAppDelegate.m in Sources */,
+				A1B9BA8D191C486F0051971D /* UIBox.m in Sources */,
+				A1146F42193BB0A100FCEBDF /* GameOverViewController.m in Sources */,
+				A12C9AE7192CF97C00CBE461 /* WordMachine.m in Sources */,
+				A1E508F41943EEE40056F561 /* UIOutlinedButton.m in Sources */,
+				A1B9BA94191C6D610051971D /* CountdownView.m in Sources */,
+				A1CEA91E193A76DB00F227B6 /* UIRoundRectButton.m in Sources */,
+				A10E72D41944F10E0016DB87 /* HelpViewController.m in Sources */,
 				A1B9BA6D191C47400051971D /* ShuffleViewController.m in Sources */,
+				A1B9BA91191C68190051971D /* LetterView.m in Sources */,
 				A1B9BA63191C47400051971D /* main.m in Sources */,
+				A1146F3F193BA66200FCEBDF /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +381,7 @@
 /* Begin PBXTargetDependency section */
 		A1B9BA7A191C47400051971D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1B9BA52191C47400051971D /* Shuffle */;
+			target = A1B9BA52191C47400051971D /* Word Combo */;
 			targetProxy = A1B9BA79191C47400051971D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +490,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Shuffle/Shuffle-Prefix.pch";
-				INFOPLIST_FILE = "Shuffle/Shuffle-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Shuffle/Word Combo-Prefix.pch";
+				INFOPLIST_FILE = "Shuffle/Word Combo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Word Combo";
+				PROVISIONING_PROFILE = "6D09177C-3AE6-43C7-AD7C-72D5834FF76E";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +506,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Shuffle/Shuffle-Prefix.pch";
-				INFOPLIST_FILE = "Shuffle/Shuffle-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Shuffle/Word Combo-Prefix.pch";
+				INFOPLIST_FILE = "Shuffle/Word Combo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Word Combo";
+				PROVISIONING_PROFILE = "6D09177C-3AE6-43C7-AD7C-72D5834FF76E";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +531,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ShuffleTests/ShuffleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ShuffleTests/Word ComboTests-Info.plist";
+				PRODUCT_NAME = "Word ComboTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +549,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shuffle/Shuffle-Prefix.pch";
-				INFOPLIST_FILE = "ShuffleTests/ShuffleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ShuffleTests/Word ComboTests-Info.plist";
+				PRODUCT_NAME = "Word ComboTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B9BA4E191C47400051971D /* Build configuration list for PBXProject "Shuffle" */ = {
+		A1B9BA4E191C47400051971D /* Build configuration list for PBXProject "Word Combo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B9BA83191C47400051971D /* Debug */,
@@ -450,21 +568,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B9BA85191C47400051971D /* Build configuration list for PBXNativeTarget "Shuffle" */ = {
+		A1B9BA85191C47400051971D /* Build configuration list for PBXNativeTarget "Word Combo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B9BA86191C47400051971D /* Debug */,
 				A1B9BA87191C47400051971D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A1B9BA88191C47400051971D /* Build configuration list for PBXNativeTarget "ShuffleTests" */ = {
+		A1B9BA88191C47400051971D /* Build configuration list for PBXNativeTarget "Word ComboTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1B9BA89191C47400051971D /* Debug */,
 				A1B9BA8A191C47400051971D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
